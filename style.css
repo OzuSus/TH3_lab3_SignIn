@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(to right, rgba(33, 150, 243, 0.5), rgba(156, 39, 176, 0.5)), url(flower.jpg);
+    background-size: cover;
+
+
+}
+.container{
+    margin: 60px auto;
+    width: 350px;
+    height: 600px;
+    background-color:#ffffff;
+    border-radius: 10px;
+}
+.card{
+    padding: 50px 40px;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+.input_Text input{
+    height: 45px;
+    width: 260px;
+    margin: 13px auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.input_Text input::placeholder{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.button_text{
+ text-align: center;
+}
+.button_text button{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: #bd59d7;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(189, 89, 215, 1);
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #bebebe;
+}
+.social{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.social span i{
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.footer p{
+   margin-top: 100px;
+    font-weight: bold;
+}
+
+
